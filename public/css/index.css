@@ -1,0 +1,107 @@
+body{
+    background-color: #3e474e;
+    
+}
+.navbar-default {
+    background-color: #3e474e;
+    background-image: none;
+    background-repeat: no-repeat;
+    border-color: #E7E7E7;
+}
+.nav-link, .navbar-brand{
+    font: none;
+    font-family: 'Josefin Sans', sans-serif;
+    color: aquamarine;
+}
+ul.navbar-nav a:hover { color: #fff !important; }
+nav li.ForumNavText{
+    margin-right: 5px;
+    border-right:3px solid lightgray ;
+}
+.navbar-default .navbar-toggler .icon-bar {
+/*
+    background-image: none;
+    background-repeat: no-repeat;
+*/
+    background-color: black;
+    background-color: white;
+/*    color: aliceblue;*/
+}
+.navbar-toggler-icon{
+    background-image: url(ic_action_dehaze.png);
+}
+.navbar-toggle .icon-bar {
+    background-color: red !important;
+}
+/*  FOOTER STYLING */
+footer{
+    font-size: 0.95em;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: #576366;
+/*
+    background-color: lightslategray;
+    background-color: #B5B8BA;
+    clear: both;
+    margin-left: -10px;
+    margin-right: -10px;
+*/
+/*    padding: 5px 0 0 0;*/
+}
+#LogoImage{
+/*
+     border-radius: 60px;
+    padding-top: 50px;
+    width: 6%;
+    margin: 40px 0;
+    padding: 0 0 0 0;
+    background-color: aliceblue;
+*/
+/*    margin-left:25px !important;  */
+/*     border-top: 25px solid #DBDBDB; */
+
+     float: left; 
+    border-radius: 100%;
+/*    padding-top: 25px;*/
+    width: 5%;
+/*    margin: 20px 0;*/
+    
+
+}
+#startHead{
+    margin-left: 5px;
+    border-left:5px solid lightgray ;
+    
+}
+.display-1{
+    font: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+p{
+    font: none;
+    font-family: 'Gloria Hallelujah', cursive;
+    color: aqua;
+}
+/*
+@include media-breakpoint-up(md) {
+    .responsive #startHead{
+      margin-left: 5px;
+      border-left:3px solid #3e474e ;
+    }
+}
+*/
+@media (min-width: 768px) { 
+    .responsive #startHead{
+      margin-left: 5px;
+      border-left:3px solid #3e474e ;
+    }
+    .responsive .navbar-default {
+        background-color: white;
+        background-image: none;
+        background-repeat: no-repeat;
+        border-color: #E7E7E7;
+    }
+}

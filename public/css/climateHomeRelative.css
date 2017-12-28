@@ -1,0 +1,27 @@
+html, body{
+    max-width: 100%;
+}
+nav{
+/*    max-width: 100%;*/
+    background-color: aquamarine;
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
+nav li{
+    font-size: 2em;
+    max-width: 100%;
+    display: inline-block;
+    background-color: aqua;
+}
+nav li.Image{
+   
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    background-color: aqua;
+}
+#LogoImage{
+    border-radius: 100%;
+    max-width: 18%;    
+}

@@ -1,0 +1,68 @@
+
+
+<!--
+<html>
+    <head>
+        <title>SignUp/LogIn</title>
+        <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Dancing+Script|Josefin+Sans|Frijole|Gloria+Hallelujah|Tangerine" rel="stylesheet">
+        <link rel="stylesheet" href="css/SignUp.css">
+    </head>
+    <body>
+        <nav>
+                <ul>
+                    <li class="login">Log In</li>
+                    <li class="register">Register</li>      
+                </ul>
+            </nav>
+        <form class="LoginContainer">
+           
+            <input type="text" name="firstname" placeholder="First Name"><br><br>
+            
+            <input type="text" name="lastname" placeholder="Last Name"><br><br>
+  
+            <input type="text" name="email" placeholder="Email"><br><br>
+
+            <input type="text" name="password" placeholder="Password"><br><br>
+            
+            <button>Button</button>
+            
+        </form>
+        <footer>&copy; 2017 Sriharsha Singam</footer>
+    </body>
+</html>
+-->
+<!--
+<?php
+//Step1
+    $servername = "127.0.0.1:3306";
+    $username = "root";
+    $password = "bTl6+Er8";
+    $dbname = "LoginData";
+    $db = mysqli_connect($servername, $username, $password, $dbname)
+    or die('Error connecting to MySQL server.');
+?>
+<?php
+       
+        $query = "SELECT * FROM UserInformation";
+        mysqli_query($db, $query) or die('Error querying database.');
+
+       
+        $result = mysqli_query($db, $query);
+        $row = mysqli_fetch_array($result);
+
+        while ($row = mysqli_fetch_array($result)) {
+         echo . $row['uniqueId'] . ' - Name: ' . $row['firstName'] . ' '. $row['lastName']'  - Email: ' . $row['userEmail'] . ' - Password: ' . $row['userPassword'] .;
+        }
+        echo "HELLO!!!";
+        ?>
+-->
+<!DOCTYPE html>
+<html>
+  
+    <h1>PHP connect to MySQL</h1>
+  <body>
+    <?php
+        echo "Hello!"
+    ?>    
+  </body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Climate Change</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+<!--        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">-->
+<!--        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">-->
+        <script src="jquery-3.2.1.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Dancing+Script|Josefin+Sans|Frijole|Gloria+Hallelujah|Tangerine" rel="stylesheet">
+        
+<!--        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="css/index.css">
+<!--
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+-->
+        
+        <script>
+            var xhr = new XMLHttpRequest();
+
+              xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4) {
+                  document.getElementById('ajax').innerHTML = xhr.responseText;
+                }
+              };
+              xhr.open('GET', 'added.html');
+              function sendAjax(){
+                  
+                  console.log("sendAjax is Working");
+                  xhr.send();
+
+              }
+        </script>
+    </head>
+
+    
+    <body>
+        <nav class="navbar navbar-toggleable-md navbar-default" id="MainNavBar">
+          <button class="navbar-toggle navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#EntireNav" aria-controls="EntireNav" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="background: url(ic_action_dehaze.png) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+<!--
+              <span class="icon-bar top-bar"></span>
+              <span class="icon-bar middle-bar"></span>
+              <span class="icon-bar bottom-bar"></span>
+-->
+<!--              <span im></span>-->
+          </button>
+            <img src="images/Climate.png" alt="Climate Change" id="LogoImage" viewBox=" 0 0 30 32">
+          <a class="navbar-brand" href="#">Climate Change</a>
+            
+          <div class="collapse navbar-collapse" id="EntireNav">
+            <ul class="navbar-nav mr-auto">
+<!--
+              <li class="nav-item active">
+                <img src="images/Climate.png" alt="Climate Change" id="LogoImage" viewBox=" 0 0 30 32">
+              </li>
+-->
+              <li class="nav-item active">
+                <a class="nav-link" id="startHead" href="#">What is Climate Change<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Current Research and Efforts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Forum</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Do Something</a>
+              </li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sign Up</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Log In</a>
+                  </li>
+              </ul>
+          </div>
+        </nav>
+<!--        <img src="images/climateChangeFirstPageTrial1.jpeg" class="img-fluid" alt="Responsive image">-->
+        <div class="jumbotron" style="background: url(images/climateChangeFirstPageTrial1.jpeg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+          <h1 class="display-1">Climate Change</h1><br><br><br>
+          <p class="HAHAHA">It is not too late!!! To those who do not believe in climate change, it is happening whether you believe in it or not! The Future Is In Your Hands! Make The Right Choice!</p>
+          <hr class="my-4">
+          <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+          <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+          </p>
+        </div>
+<!--
+        <button id="load" onclick="sendAjax()">Test Ajax People.</button>
+        <div id="ajax">
+            
+        </div>
+-->
+<!--        <a href="testData.php" ><h2>Join The Community</h2></a>-->
+        <footer>&copy; 2017 Sriharsha Singam</footer>
+        <script src="jquery-3.2.1.js"></script>
+<!--        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>-->
+        <script src="bootstrap.min.js" ></script>
+                                                                                                 
+    </body>
+</html>
